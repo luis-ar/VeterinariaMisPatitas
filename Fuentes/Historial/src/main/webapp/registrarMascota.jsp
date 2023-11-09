@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <h5  class="subIntranet" style="font-size: 20px;margin-bottom: -10px;">Fecha de Nacimiento</h5>
-                <input id="fechaInput" name="fechaMascota" autocomplete="off" type="date" class="datos"  placeholder="Ingrese la fecha" style="padding-left:10px;font-size: 20px;width: 100%;" >
+                <input id="fechaInput"max="<%= java.time.LocalDate.now() %>" name="fechaMascota" autocomplete="off" type="date" class="datos"  placeholder="Ingrese la fecha" style="padding-left:10px;font-size: 20px;width: 100%;" >
 
                 <h5  class="subIntranet" style="font-size: 20px;margin-bottom: -10px;">Descripción</h5>
 

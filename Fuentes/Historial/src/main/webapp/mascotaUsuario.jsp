@@ -19,7 +19,7 @@
         <div class="madreMascotaUsuario">
 
             <div class="btnAgregar">
-                <a href="/Integrador/registrarMascota.jsp" id="btnAgregar">Agregar Mascota</a>
+                <a href="/Historial/registrarMascota.jsp" id="btnAgregar">Agregar Mascota</a>
             </div>
             <c:forEach items="${listaMascota}" var="g" varStatus="loopStatus">
                 <c:if test="${g.idUsuario eq idUsuario}">
